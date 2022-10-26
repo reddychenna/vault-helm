@@ -5,7 +5,7 @@ orbs:
 jobs:
   update-helm-charts-index:
     docker:
-      - image: docker.mirror.hashicorp.services/circleci/golang:1.19.2
+      - image: docker.mirror.hashicorp.services/golang:1.19.2
     steps:
       - checkout
       - run:
